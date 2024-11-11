@@ -1,0 +1,70 @@
+/* App.css */
+
+nav {
+  background-color: #333; /* Color de fondo */
+  padding: 10px; /* Espaciado alrededor del menú */
+}
+
+nav ul {
+  list-style-type: none; /* Eliminar viñetas */
+  padding: 0; /* Eliminar padding por defecto */
+}
+
+nav ul li {
+  display: inline; /* Mostrar elementos en línea */
+  margin-right: 20px; /* Espaciado entre elementos */
+}
+
+nav ul li a {
+  color: white; /* Color del texto */
+  text-decoration: none; /* Sin subrayado */
+  font-weight: bold; /* Texto en negrita */
+}
+
+nav ul li a:hover {
+  color: #ffcc00; /* Color al pasar el mouse */
+}
+/* AuthForms.css */
+
+.auth-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.auth-form h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: calc(100% - 20px); /* Ajustar ancho para incluir padding */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Color del botón */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+button:hover {
+  background-color: #0056b3; /* Color al pasar el mouse */
+}
